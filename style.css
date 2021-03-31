@@ -357,3 +357,169 @@ body{
     line-height: 2;
     color: lightgoldenrodyellow;
 }
+
+#wrapper .title-f {
+    height: 30px;
+    width: 300px;
+    background-color: rgb(172, 136, 136);
+    display: block;
+    text-align: center;
+    line-height: 2;
+    color: lightgoldenrodyellow;
+}
+#wrapper .desc {
+    font-size: 0;
+}
+
+#wrapper .row {
+    display: inline-block;
+    width: 21%;
+    padding: 2%;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.2s;
+    vertical-align: top;
+}
+
+#wrapper .row:hover {
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}
+
+#wrapper .row .thumbnail {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+#wrapper .row .thumbnail-description {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#wrapper .row .thumbnail-description:hover {
+    background-color: gray;
+    color: navajowhite;
+}
+
+#wrapper .title-c {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(172, 136, 136);
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: lightgoldenrodyellow;
+}
+
+#wrapper .block-row {
+    background-color: rgb(100, 78, 78);
+}
+
+#wrapper .title-d {
+    cursor: pointer;
+}
+
+#wrapper .block-row-1 {
+    display: inline-block;
+    width: 20%;
+    padding: 2px;
+}
+
+#wrapper .news {
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+
+#wrapper .topic {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#wrapper .topic:hover {
+    color: rgb(97, 97, 163);
+}
+
+#wrapper .block-row-2 {
+    display: inline-block;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+#wrapper .others-news {
+    display: block;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted rgb(167, 167, 196);
+    margin-bottom: 15px;
+
+}
+
+#wrapper .others-news:hover {
+    color: rgb(97, 97, 163);
+}
+
+#wrapper .block-row-3 {
+    display: block;
+}
+
+#wrapper .block-row-4 {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+#wrapper .block-row-5 {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#wrapper .block-row-6 {
+    display: block;
+    vertical-align: top;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+#wrapper .Yoga {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+#wrapper .topic-yoga {
+    display: inline-block;
+    line-height: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: top;
+    padding: 20px;
+}
+
+#wrapper .topic-yoga:hover {
+    color: rgb(97, 97, 163);
+}
