@@ -1,1 +1,204 @@
+body{
+    margin: 0;
+    font-family: RobotoLight;
+}
 
+@font-face {
+    font-family: FontAwesomeSolid;
+    src: url(fonts/fa-solid-900.woff);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(fonts/Roboto-Light.ttf)
+}
+
+
+/* top menu */
+
+
+#top-menu {
+    height: 100px;
+    background-color: rgb(92, 130, 165);
+    font-size: 0px;
+}
+
+#top-menu .logo-form {
+    display: inline-block; 
+    max-width: 80px;
+    right: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    vertical-align: top;
+}
+
+#top-menu .search-text {
+    display: inline-block;
+    padding: 6px;
+    margin-top: 30px;
+    margin-left: 200px;
+    border: none;
+    font-size: 17px;
+    width: 30%;
+    vertical-align: top;
+    font-size: 20px;
+}
+
+#top-menu .submit {
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    vertical-align: top;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: gray;
+    font-size: 10px;
+    border: none;
+    outline: none;
+}
+
+#top-menu .search-icon:before {
+    display: inline-block;
+    font-family: FontAwesomeSolid;
+    content: '\f002';
+    font-style: normal;
+    font-size: 20px;
+}
+
+#top-menu .submit:hover {
+    background-color: rgb(105, 126, 145);
+    color: white;
+}
+
+#top-menu .hotline {
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: gray;
+    margin-left: 300px;
+    font-size: 20px;
+    border: none;
+    height: 40px;
+    line-height: 35px;
+    width: 160px;
+    text-align: center;
+}
+
+#top-menu .phone-icon:before {
+    font-family: FontAwesomeSolid;
+    content: '\f095';
+    margin-right: 5px;
+    font-style: normal;
+}
+
+#top-nemu .phone-icon {
+    font-style: normal;
+}
+
+#top-menu .hotline:hover {
+    background-color: rgb(105, 126, 145);
+    color: white;
+}
+
+#top-menu .login {
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: gray;
+    margin-left: 10px;
+    font-size: 20px;
+    border: none;
+    font-style: normal;
+    height: 40px;
+    line-height: 35px;
+    width: 90px;
+    text-align: center;
+}
+
+#top-menu .login:hover {
+    background-color: rgb(105, 126, 145);
+    color: white;
+}
+
+#top-menu .login-icon:before {
+    font-family: FontAwesomeSolid;
+    content: '\f2f6';
+    margin-right: 5px;
+}
+
+#top-menu .login-icon {
+    font-style: normal;
+}
+
+#top-menu .register {
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: gray;
+    margin-left: 10px;
+    font-size: 20px;
+    border: none;
+    font-style: normal;
+    height: 40px;
+    line-height: 35px;
+    width: 120px;
+    text-align: center;
+}
+
+#top-menu .register:hover {
+    background-color: rgb(105, 126, 145);
+    color: white;
+}
+
+#top-menu .register-icon:before {
+    font-family: FontAwesomeSolid;
+    content: '\f25d';
+    margin-right: 5px;
+}
+
+#top-menu .register-icon {
+    font-style: normal;
+}
+
+/* mid menu */
+
+
+#navigation-menu {
+    margin-left: 0px;
+    position: relative;
+    height: 60px;
+    background-color: rgb(53, 48, 48);
+}
+
+#navigation-menu .homepage:before {
+    font-family: FontAwesomeSolid;
+    content: '\f3cd';
+    margin-right: 5px;
+}
+#navigation-menu .homepage:hover {
+    background-color: rgb(42, 109, 70);
+    color: black;
+}
+
+#navigation-menu .service:before {
+    font-family: FontAwesomeSolid;
+    content: '\f5d1';
+    margin-right: 5px;
+}
+
+#navigation-menu .dropdown-toggle {
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    display: inline-block;
+    margin: 2px 2px;
+
+}
