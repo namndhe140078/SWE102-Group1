@@ -1,5 +1,5 @@
-# SWE102-Group1-Web Sell Phone
-Class CS1404
+# SWE102 - Group1 - CS1404 - Web Sell Phone
+
 Members:
 Ngô Đức Nam - HE140078
 Nguyễn Hữu Thành - HE140039
