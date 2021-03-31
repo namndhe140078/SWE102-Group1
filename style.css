@@ -202,3 +202,158 @@ body{
     margin: 2px 2px;
 
 }
+
+#navigation-menu .knowledge:before {
+    font-family: FontAwesomeSolid;
+    content: '\f10a';
+    margin-right: 5px;
+}
+
+#navigation-menu .item-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 5px;
+
+}
+
+#navigation-menu .exercises:before {
+    font-family: FontAwesomeSolid;
+    content: '\f025';
+    margin-right: 5px;
+}
+#navigation-menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#navigation-menu .store:before {
+    font-family: FontAwesomeSolid;
+    content: '\f06b';
+    margin-right: 5px;
+}
+
+#navigation-menu .dropdown-content a {
+    color:  black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#navigation-menu .dropdown-content a:hover {
+    background-color: gray;
+}
+
+#navigation-menu .item-wrapper:hover .dropdown-content {
+    display: block;
+}
+
+#navigation-menu .dropdown-toggle:hover  {
+    background-color: rgb(174, 194, 87);
+}
+
+#navigation-menu .menu-wrapper {
+    text-align: center;
+}
+
+
+/* banner */
+
+
+#banner {
+    position: relative;
+    height: 600px;
+    background-color: white;
+}
+
+#banner .arrow-left:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -20px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: FontAwesomeSolid;
+    content: '\f060';
+    font-style: normal;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: red;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: white;
+
+}
+
+#banner .arrow-right:before {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -20px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: FontAwesomeSolid;
+    content: '\f061';
+    font-style: normal;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: red;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: white;
+
+}
+
+#banner .advertisment {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* wrapper */
+
+
+#wrapper .title {
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid rgb(172, 136, 136);
+}
+
+#wrapper .title-a {
+    height: 30px;
+    width: 300px;
+    background-color: rgb(172, 136, 136);
+    display: block;
+    text-align: center;
+    line-height: 2;
+    color: lightgoldenrodyellow;
+}
+
+#wrapper .title-b {
+    height: 30px;
+    width: 300px;
+    background-color: rgb(172, 136, 136);
+    display: block;
+    text-align: center;
+    line-height: 2;
+    color: lightgoldenrodyellow;
+}
+
+#wrapper .title-e {
+    height: 30px;
+    width: 300px;
+    background-color: rgb(172, 136, 136);
+    display: block;
+    text-align: center;
+    line-height: 2;
+    color: lightgoldenrodyellow;
+}
