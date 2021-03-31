@@ -523,3 +523,146 @@ body{
 #wrapper .topic-yoga:hover {
     color: rgb(97, 97, 163);
 }
+
+
+/* footer */
+
+
+#footer {
+    height: 500px;
+    background-color: rgb(172, 136, 136);
+}
+
+#footer .brands {
+    display: inline-block;
+    height: 150px;
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#footer .logo-brands {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+#footer .footer-logo {
+    display: inline-block;
+    width: 600px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#footer .logo-form {
+    display: block;
+    width: 200px;
+    cursor: pointer;
+    padding-left: 200px;
+}
+
+#footer .footer-logo-text {
+    color:lightgoldenrodyellow;
+    font-weight: bolder;
+}
+
+#footer .footer-1 {
+    display: inline-block;
+    width: 200px;
+    padding-left: 100px;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+#footer .uppercase {
+    display: block;
+    width: 200px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+#footer .list-service {
+    width: 100px;
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+#footer .list-name {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#footer .list-name .name:hover {
+    color:lightgoldenrodyellow;
+}
+
+#footer .list-link {
+    width: 150px;
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+#footer .list-contact {
+    width: 300px;
+}
+#footer .phone-number {
+    margin-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#footer .icon-phone:before {
+    font-family: FontAwesomeSolid;
+    content: '\f2a0';
+    margin-right: 5px;
+    font-style: normal;
+}
+
+#footer .phone-number:hover {
+    color:lightgoldenrodyellow;
+}
+
+#footer .list-mail {
+    width: 300px;
+}
+
+#footer .icon-mail:before {
+    font-family: FontAwesomeSolid;
+    content: '\f674';
+    margin-right: 5px;
+    font-style: normal;
+}
+
+#footer .mail-text {
+    margin-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#footer .mail-text:hover {
+    color:lightgoldenrodyellow;
+}
+
+#footer .list-apps {
+    width: 300px;
+}
+
+#footer .icon-youtube:before {
+    margin-right: 5px;
+    font-style: normal;
+    font-family: FontAwesomeSolid;
+    content: '\f167';
+    font-style: normal;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color:rgb(172, 136, 136) ;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: white;
+}
